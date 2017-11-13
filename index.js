@@ -22,4 +22,11 @@ function appendDriver(name) {
   newArray.push(name);
   return newArray;
 }
+function prependDriver(name) {
+  let newArray = drivers.slice();
+  newArray.unshift(name);
+  return newArray;
+}
+
+
 //var newArray = oldArray.slice();
