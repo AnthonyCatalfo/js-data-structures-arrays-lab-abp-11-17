@@ -32,7 +32,11 @@ function removeLastDriver(name) {
   newArray.pop(name);
   return newArray;
 }
-
+function removeFirstDriver(name) {
+  let newArray = drivers.slice();
+  newArray.shift(name);
+  return newArray;
+}
 
 
 //var newArray = oldArray.slice();
